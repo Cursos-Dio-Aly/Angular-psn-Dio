@@ -1,0 +1,34 @@
+.card-container {
+    position: absolute;
+    width: 100%;
+    height: 4rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: .625rem;
+
+    .card-title {
+        margin-bottom: .125rem;
+    }
+
+    .card-value {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .card-console {
+            display: flex;
+            flex-direction: row;
+
+            span {
+                font-weight: bolder;
+                color: aqua;
+                margin-right: .325rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.home-container {
+    width: 90%;
+    height: 55rem;
+    margin: auto;
+    padding-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+footer {
+    width: 100%;
+    background-color: #FFF;
+    height: 3.125rem;
+
+    p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        text-align: center;
+    }
+}
